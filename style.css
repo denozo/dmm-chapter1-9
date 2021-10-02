@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  height: 50px;
+  background-color: #ff9a4b;
+}
+
+main {
+  width: 960px;
+  margin:50px auto;
+  display: flex;
+}
+
+.box {
+  width: 300px;
+  background-color: #eeeeee;
+  padding: 10px;
+  position: relative;
+  margin-right: 30px; /*まずは全部につけてから*/
+}
+
+.box:last-child {
+  /* margin-right: 30px;
+  margin-left: 30px; */
+  margin-right: 0px; /*最後を外す*/
+}
+
+
+span {
+  color: #fff;
+  background-color: #ff9a4b;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.box-image1 {
+  height: 150px;
+  background-image: url(../img/flow01.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.box-image2 {
+  height: 150px;
+  background-image: url(../img/flow02.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+.box-image3 {
+  height: 150px;
+  background-image: url(../img/flow03.png);
+  background-size: cover;
+  background-position: bottom;
+}
+
+h3 {
+  padding: 15px 0 5px 0;
+}
+
+
+footer {
+  height: 50px;
+  background-color: #aaaaaa;
+  background-size: 150px;
+}
